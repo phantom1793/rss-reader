@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RSS Reader</title>
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/base.css" />
+</head>
+<body>
+  <div class="nav-bar">
+    <input type="button" value="button"/>
+    <input type="text" />
+    <label for="auto-read-span">新しいニュースを探す間隔:</label>
+    <select id="auto-read-span">
+      <option>
+        1
+      </option>
+      <option>
+        5
+      </option>
+      <option>
+        10
+      </option>
+      <option>
+        15
+      </option>
+      <option>
+        20
+      </option>
+      <option>
+        25
+      </option>
+      <option>
+        30
+      </option>
+    </select>
+  </div>
+  <div class="sidebar-left">
+    <div class="character">
+      <img src="https://steamuserimages-a.akamaihd.net/ugc/306613034816581094/ED0C45337538B799D1EFAC63129C01439AC3B2E4/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|512" />
+    </div>
+    <ul>
+      <li>
+        <input type="button" value="ニコニコニュース" data="http://news.nicovideo.jp/ranking/comment?rss=2.0"/>
+      </li>
+      <li>
+        <input type="button" value="ニコニコ新着動画" data="http://www.nicovideo.jp/newarrival?rss=2.0" />
+      </li>
+    </ul>
+  </div>
+  <div class="contents">
+  </div>
+  <script src="init.js"></script>
+  <script src="sidebar.js"></script>
+  <script src="talker.js"></script>
+</body>
+</html>

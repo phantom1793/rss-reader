@@ -1,0 +1,12 @@
+[
+  {
+    "id": "",
+    "site_name": "ニコニコニュース",
+    "site_url": "http://news.nicovideo.jp/ranking/comment?rss=2.0",
+  },
+  {
+    "id": "",
+    "site_name": "ニコニコ新着動画",
+    "site_url": "http://www.nicovideo.jp/newarrival?rss=2.0"
+  }
+]
