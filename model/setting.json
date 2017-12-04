@@ -1,0 +1,16 @@
+{
+  "read_span": "10",
+  "selected_site_id": "",
+  "target_feed_list": [
+    {
+      "site_name": "ニコニコニュース",
+      "rss_url": "http://news.nicovideo.jp/ranking/comment?rss=2.0",
+      "site_id": "1688e2f8-8a08-4061-9eed-853de44423c3"
+    },
+    {
+      "site_name": "ニコニコ新着動画",
+      "rss_url": "http://www.nicovideo.jp/newarrival?rss=2.0",
+      "site_id": "0f86c962-10ae-4d82-8dd5-a1b48908ecf8"
+    }
+  ]
+}

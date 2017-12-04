@@ -10,12 +10,17 @@
   and display those items
 */
 
+"use strict";
+
 var fs = require("fs");
 var FeedParser = require('feedparser');
 var request = require('request');
 var talker = require("./talker.js");
 var $ = require("jquery");
 var urls = [];
+
+
+
 
 module.exports = {
 

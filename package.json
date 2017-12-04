@@ -11,8 +11,10 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cheerio-httpcli": "^0.7.2",
+    "ejs": "^2.5.7",
     "jquery": "^3.2.1",
-    "remote": "^0.2.6"
+    "remote": "^0.2.6",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "devtron": "^1.4.0"
